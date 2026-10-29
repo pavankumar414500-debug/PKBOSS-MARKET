@@ -1,1 +1,97 @@
 
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PKB9999 Trading</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1220;
+      color: white;
+    }
+    header {
+      background: #111c30;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      color: #00e5a0;
+      margin: 0;
+    }
+    .container {
+      padding: 20px;
+    }
+    .card {
+      background: #17243a;
+      padding: 18px;
+      border-radius: 12px;
+      margin-bottom: 15px;
+    }
+    .price {
+      font-size: 28px;
+      color: #00e5a0;
+    }
+    .buttons {
+      display: flex;
+      gap: 10px;
+      margin-top: 15px;
+    }
+    button {
+      flex: 1;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .buy { background: #00a878; }
+    .sell { background: #e63946; }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #aab7cc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PKB9999 Trading</h1>
+    <p>आपका शेयर मार्केट डैशबोर्ड</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>📊 मेरा पोर्टफोलियो</h2>
+      <p>कुल बैलेंस</p>
+      <div class="price">₹1,00,000</div>
+      <p>डेमो बैलेंस — असली पैसे नहीं</p>
+    </div>
+
+    <div class="card">
+      <h2>RELIANCE</h2>
+      <p>Reliance Industries</p>
+      <div class="price">₹1,450.00</div>
+      <p>डेमो कीमत — लाइव मार्केट डेटा नहीं</p>
+      <div class="buttons">
+        <button class="buy" onclick="alert('यह केवल डेमो BUY बटन है।')">BUY</button>
+        <button class="sell" onclick="alert('यह केवल डेमो SELL बटन है।')">SELL</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>NIFTY 50</h2>
+      <p>भारतीय शेयर बाजार सूचकांक</p>
+      <div class="price">मार्केट डेटा उपलब्ध नहीं</div>
+      <p>लाइव डेटा जोड़ने के बाद यहाँ भाव दिखेंगे।</p>
+    </div>
+  </div>
+
+  <footer>
+    © 2026 PKB9999 Trading
+  </footer>
+</body>
+</html>
