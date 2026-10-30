@@ -1,9 +1,9 @@
-# PNB9999 Trading App
+# PKBOSS MARKET Trading App
 
 Ye mera trading app hai.
 
 Live Website Link:
-https://pavankumar414500-debug.github.io/Pkb9999/
+https://pavankumar414500-debug.github.io/PKBOSS MARKET/
 
 Features:
 - Live Price
